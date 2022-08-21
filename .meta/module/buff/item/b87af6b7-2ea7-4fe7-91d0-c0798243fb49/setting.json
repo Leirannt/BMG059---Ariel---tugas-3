@@ -1,0 +1,15 @@
+{
+  "data": {
+    "continueDamage": 10,
+    "fixTime": "reset",
+    "name": {
+      "value": "buff_b87af6b7-2ea7-4fe7-91d0-c0798243fb49"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "6995d80827706dbc1a3efbb1e662f18a"
+    },
+    "VERSION": "0.22"
+  }
+}

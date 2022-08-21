@@ -1,0 +1,24 @@
+{
+  "data": {
+    "attackBound": {
+      "height_c": 2,
+      "type": "Capsule"
+    },
+    "attackBoundSkillSystemCfg": {
+      "height_c": 2,
+      "type": "Capsule"
+    },
+    "damage": 20,
+    "hurtDistance": 0,
+    "name": {
+      "value": "skill_system_e650a587-afab-4dde-b569-d8e8b743f432"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bffb1168c3f960bdf24c1c94106a2f1b",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

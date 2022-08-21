@@ -1,0 +1,65 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Black And White Checkered Flag/Flag At The Start.actor"
+    },
+    "girlactor": {
+      "asset": "asset/Actor/Black And White Checkered Flag/Flag At The Start.actor"
+    },
+    "name": {
+      "value": "entity_25bf1cb2-eb4a-4f0c-9136-86b42fe3dae2"
+    },
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_GameOver",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params"
+                }
+              ],
+              "id": {
+                "value": "f1a2e81d-383c-43d0-91a6-3c4451ce4d48"
+              },
+              "pos": {
+                "x": 647,
+                "y": 336
+              }
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "e7e21e64-6af6-45e9-9584-59c1d041292b"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "f1a2e81d-383c-43d0-91a6-3c4451ce4d48"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "d128bc95-9879-4540-8ad2-b5439d963574"
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "bf88521cce6fcd37b770889a9fe87f47",
+      "triggers.bts": "c3099b3be01fb187243239022c0db356"
+    },
+    "VERSION": "0.22"
+  }
+}

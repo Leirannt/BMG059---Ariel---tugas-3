@@ -1,0 +1,3 @@
+PART_TOUCH_ENTITY_BEGIN {
+	KickOutPlayer(entity = $obj2)
+}

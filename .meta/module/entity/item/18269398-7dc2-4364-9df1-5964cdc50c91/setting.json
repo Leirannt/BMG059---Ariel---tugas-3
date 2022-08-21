@@ -1,0 +1,144 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/White And Purple Mechanical Saw Monster/g2047_monster_normal_3104.actor"
+    },
+    "AI_attack": {
+      "attackMode": "autoAttack",
+      "enable": true,
+      "maxVisualAngle": 180,
+      "skillList": [
+        {
+          "fullName": "myplugin/e650a587-afab-4dde-b569-d8e8b743f432"
+        }
+      ]
+    },
+    "AI_home": {
+      "homeSize": 3
+    },
+    "canClick": true,
+    "clickDistance": 5,
+    "enableAI": true,
+    "girlactor": {
+      "asset": "asset/Actor/White And Purple Mechanical Saw Monster/g2047_monster_normal_3104.actor"
+    },
+    "hideHp": false,
+    "hideName": true,
+    "maxHp": 100,
+    "moveSpeed": 2,
+    "name": {
+      "value": "entity_18269398-7dc2-4364-9df1-5964cdc50c91"
+    },
+    "reachDistance": 5,
+    "skill": [
+      ""
+    ],
+    "stepHeight": 0,
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_Damage",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "539b1ec9-d30e-4395-bf93-434f55fb8732"
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Int",
+                        "rawval": 20
+                      }
+                    },
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "4ef90dce-862a-409c-bd7d-3d5c2c68ed63"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "50eb549b-8052-4f53-93b9-28a3f7d1b54e"
+              },
+              "pos": {
+                "x": 710,
+                "y": 274
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj1"
+                }
+              ],
+              "id": {
+                "value": "539b1ec9-d30e-4395-bf93-434f55fb8732"
+              },
+              "pos": {
+                "x": 1125,
+                "y": 225
+              },
+              "type": "T_Entity"
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "4ef90dce-862a-409c-bd7d-3d5c2c68ed63"
+              },
+              "pos": {
+                "x": 1061,
+                "y": 416
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "0b6658e1-f577-4d9a-a26b-c9a37964bbfe"
+            },
+            "type": "Trigger_EntityClick"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "50eb549b-8052-4f53-93b9-28a3f7d1b54e"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "4fa6f65f-f2a7-440d-822c-2c578aca4c9d"
+            }
+          },
+          "type": "Trigger_EntityClick"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "8bb0b9686821ed1ac47570f0ac06c8eb",
+      "triggers.bts": "b60ac981f170ba53d850d33e15636025"
+    },
+    "VERSION": "0.22"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "data": {
+    "actorName": {
+      "asset": "asset/Actor/Black Flag with Letter B/Archived Banner.actor"
+    },
+    "girlactor": {
+      "asset": "asset/Actor/Black Flag with Letter B/Archived Banner.actor"
+    },
+    "name": {
+      "value": "entity_99cf7cb1-9109-4b79-a005-3ae32e731b06"
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "628dbcb9e2abb40ccee58208013b7807",
+      "triggers.bts": ""
+    },
+    "VERSION": "0.22"
+  }
+}

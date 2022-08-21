@@ -1,0 +1,80 @@
+{
+  "data": {
+    "triggers": {
+      "list": [
+        {
+          "actions": [
+            {
+              "__OBJ_TYPE": "Action_KickOutPlayer",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Params",
+                  "params": [
+                    {
+                      "value": {
+                        "__OBJ_TYPE": "T_Entity",
+                        "action": "8fa2d1e7-e320-45b0-9745-bc28eb5fb8e0"
+                      }
+                    }
+                  ]
+                }
+              ],
+              "id": {
+                "value": "de01e9c3-977b-47d2-b12c-5861673f2fab"
+              },
+              "pos": {
+                "x": 739,
+                "y": 403
+              }
+            },
+            {
+              "__OBJ_TYPE": "Action_GetContextVar",
+              "components": [
+                {
+                  "__OBJ_TYPE": "Component_Context",
+                  "key": "obj2"
+                }
+              ],
+              "id": {
+                "value": "8fa2d1e7-e320-45b0-9745-bc28eb5fb8e0"
+              },
+              "pos": {
+                "x": 1055,
+                "y": 352
+              },
+              "type": "T_Entity"
+            }
+          ],
+          "custom_trigger_data": {
+            "name": {
+              "value": "2c0734a3-c17a-4ac3-aec7-58bd97dac6f7"
+            },
+            "type": "Trigger_PartTouchEntityBegin"
+          },
+          "root": {
+            "components": [
+              {
+                "__OBJ_TYPE": "Component_Sequence",
+                "children": [
+                  {
+                    "action": "de01e9c3-977b-47d2-b12c-5861673f2fab"
+                  }
+                ]
+              }
+            ],
+            "id": {
+              "value": "3381def3-8dca-4651-b772-9fea42a49bfc"
+            }
+          },
+          "type": "Trigger_PartTouchEntityBegin"
+        }
+      ]
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "triggers.bts": "2924d4f976f5c48d596c91928693a81f"
+    },
+    "VERSION": "0.22"
+  }
+}

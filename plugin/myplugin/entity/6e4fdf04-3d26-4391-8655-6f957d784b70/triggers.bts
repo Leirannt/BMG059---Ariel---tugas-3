@@ -1,0 +1,26 @@
+ENTITY_DIE {
+	ReviveEntity(
+		entity = $obj1,
+		pos = GetRandomPosInArea(
+		region = {
+			map = "",
+			max = {
+				__OBJ_TYPE = "Vector3i",
+				x = 24,
+				y = 82,
+				z = 13
+			},
+			min = {
+				__OBJ_TYPE = "Vector3i",
+				x = 23,
+				y = 82,
+				z = 12
+			}
+		}
+	)
+	)
+}
+
+ENTITY_CLICK {
+	Damage(damage = 10, entity = $obj1)
+}

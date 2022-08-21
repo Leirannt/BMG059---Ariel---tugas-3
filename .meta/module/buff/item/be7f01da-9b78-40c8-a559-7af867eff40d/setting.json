@@ -1,0 +1,16 @@
+{
+  "data": {
+    "fixTime": "reset",
+    "maxHp": 80,
+    "name": {
+      "value": "buff_be7f01da-9b78-40c8-a559-7af867eff40d"
+    },
+    "needSave": true
+  },
+  "meta": {
+    "EXPORT": {
+      "setting.json": "fdff839ebf65518c50e28151f80ac254"
+    },
+    "VERSION": "0.22"
+  }
+}

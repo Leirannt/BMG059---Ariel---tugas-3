@@ -1,0 +1,270 @@
+{
+  "data": {
+    "box": {
+      "base": {
+        "__OBJ_TYPE": "SkyBoxStatic"
+      }
+    },
+    "instances": [
+      {
+        "__OBJ_TYPE": "Instance_VoxelTerrain",
+        "id": "26644713697705985",
+        "uniqueKey": "map001"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8759394608276733953",
+        "ID": 1,
+        "lightType": "GlobalLight",
+        "name": "EnvironmentLight"
+      },
+      {
+        "__OBJ_TYPE": "Instance_Light",
+        "id": "8759394608390340609",
+        "ID": 2,
+        "lightType": "DirectionalLight",
+        "name": "DirectionalLight",
+        "position": {
+          "y": 5
+        },
+        "rotation": {
+          "y": -90
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "b9b56a31-90a9-4d22-8c55-a947ac7c7092",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8765027438581071873",
+        "massCenter": {
+          "x": 39.951877593994,
+          "y": 80.963745117188,
+          "z": 10.782075881958
+        },
+        "material": {
+          "color": {
+            "g": 240,
+            "r": 240
+          },
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": 39.951877593994,
+          "y": 80.963745117188,
+          "z": 10.782075881958
+        },
+        "restitution": 0.05,
+        "scale": {
+          "x": 4,
+          "z": 4
+        },
+        "size": {
+          "x": 4,
+          "z": 4
+        },
+        "useAnchor": true,
+        "useGravity": false
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "c3a925f6-9796-4b9d-a4db-c80fdd7d71d3",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8759399948764364801",
+        "massCenter": {
+          "x": 34.571002960205,
+          "y": 80.857917785645,
+          "z": 10.862998962402
+        },
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": 34.571002960205,
+          "y": 80.857917785645,
+          "z": 10.862998962402
+        },
+        "restitution": 0.05,
+        "scale": {
+          "x": 4,
+          "z": 4
+        },
+        "size": {
+          "x": 4,
+          "z": 4
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "b6a31135-14a5-4bcf-99cb-c7764eae7415",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8759402286651031553",
+        "massCenter": {
+          "x": 30.163652420044,
+          "y": 80.857917785645,
+          "z": 10.955352783203
+        },
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": 30.163652420044,
+          "y": 80.857917785645,
+          "z": 10.955352783203
+        },
+        "restitution": 0.05,
+        "scale": {
+          "x": 2,
+          "z": 2
+        },
+        "size": {
+          "x": 2,
+          "z": 2
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "bc8f2494-9032-47f5-954a-d20b68ef09b1",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8759403270758596609",
+        "massCenter": {
+          "x": 24.025333404541,
+          "y": 80.857917785645,
+          "z": 11.06023979187
+        },
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": 24.025333404541,
+          "y": 80.857917785645,
+          "z": 11.06023979187
+        },
+        "restitution": 0.05,
+        "scale": {
+          "x": 8,
+          "z": 8
+        },
+        "size": {
+          "x": 8,
+          "z": 8
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "131b7ad8-6202-46ad-8400-f53cc9177b3b",
+        "density": 7.7,
+        "friction": 0.44,
+        "id": "8759403434344710145",
+        "massCenter": {
+          "x": 16.292987823486,
+          "y": 80.857917785645,
+          "z": 10.735239982605
+        },
+        "material": {
+          "texture": "part_xiushijinshu.tga"
+        },
+        "position": {
+          "x": 16.292987823486,
+          "y": 80.857917785645,
+          "z": 10.735239982605
+        },
+        "restitution": 0.05,
+        "scale": {
+          "x": 3,
+          "z": 3
+        },
+        "size": {
+          "x": 3,
+          "z": 3
+        },
+        "useAnchor": true
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/25bf1cb2-eb4a-4f0c-9136-86b42fe3dae2",
+        "id": "8759423539687292929",
+        "name": "",
+        "position": {
+          "x": 15.18398475647,
+          "y": 81.357925415039,
+          "z": 10.700240135193
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Entity",
+        "config": "myplugin/18269398-7dc2-4364-9df1-5964cdc50c91",
+        "id": "8759426710671917057",
+        "name": "",
+        "position": {
+          "x": 24.079330444336,
+          "y": 81.35816192627,
+          "z": 8.7732400894165
+        },
+        "scale": {
+          "x": 1.283,
+          "y": 1.371,
+          "z": 1.155
+        },
+        "size": {
+          "x": 1.282999753952,
+          "y": 1.3710010051727,
+          "z": 1.1550003290176
+        }
+      },
+      {
+        "__OBJ_TYPE": "Instance_Part",
+        "btsKey": "d295114f-e61e-460c-b463-71534f4bb623",
+        "density": 2.2,
+        "friction": 0.37,
+        "id": "8765135415792467969",
+        "massCenter": {
+          "x": 35.415946960449,
+          "y": 69.52220916748,
+          "z": 8.362998008728
+        },
+        "material": {
+          "alpha": 0,
+          "color": {
+            "b": 249,
+            "r": 196
+          }
+        },
+        "position": {
+          "x": 35.415946960449,
+          "y": 69.52220916748,
+          "z": 8.362998008728
+        },
+        "restitution": 0.3,
+        "scale": {
+          "x": 50,
+          "z": 50
+        },
+        "size": {
+          "x": 50,
+          "z": 50
+        },
+        "useAnchor": true
+      }
+    ],
+    "name": {
+      "value": "map_map001"
+    },
+    "touch_pos": {
+      "up": 600
+    }
+  },
+  "meta": {
+    "EXPORT": {
+      "DataSet": [],
+      "setting.json": "2501aeb97e4a368aeee8c4a970b07da9"
+    },
+    "VERSION": "0.22"
+  }
+}
